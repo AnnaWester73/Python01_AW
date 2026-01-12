@@ -36,7 +36,26 @@ time_minutes = int(time_minutes)
 print("Resan tar totalt med bil: ", time_hours, "h och ", time_minutes, "min")
 
 
+#Uppgift 3a
+print ("Uppgift 3a")
+from datetime import date, timedelta  # Hämta dagens datum, Hämtar datum klasser från python
+today = date.today()
 
+# Skriv ut datumet
+print(f"Dagens datum är: {today}")
+
+
+#Uppgift 3b
+print ("Uppgift 3b")
+
+# Hämta dagens datum, Hämtar datum klasser från python och lägger på 7 dagar
+from datetime import date
+today = date.today()
+sevendays = timedelta(days=7)
+future_date = today + sevendays # lägger på 7 dagar från dagens datum
+
+# Skriv ut vilket datum om 7 dagar
+print(f"Om sju dagar är det datum: {future_date}")
 
 
 
