@@ -35,6 +35,22 @@ time_minutes = (hours - time_hours) * 60
 time_minutes = int(time_minutes)
 print("Resan tar totalt med bil: ", time_hours, "h och ", time_minutes, "min")
 
+#Uppgift 2
+print("Uppgift 2")
+
+import math
+
+# Be användaren mata in längden på de två kortare sidorna
+a = float(input("Ange längden på sida a: "))
+b = float(input("Ange längden på sida b: "))
+
+# Beräkna hypotenusan med Pythagoras sats
+c = math.sqrt(a * a + b * b)
+
+# Skriv ut resultatet
+print(f"Hypotenusan är {c}")
+
+
 
 #Uppgift 3a
 print ("Uppgift 3a")
