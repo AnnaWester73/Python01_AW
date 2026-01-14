@@ -14,3 +14,4 @@ print("Det blir", money_left, "kronor över.")
 # information om vad varje person får tillbaka
 share_per_person = money_left / number_of_people
 print("Varje person får", share_per_person, "kronor.")
+
