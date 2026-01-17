@@ -1,5 +1,4 @@
 import math
-from math import hypot
 
 print("Uppgift 1a")
 distance_km =470
@@ -47,12 +46,9 @@ print("-------------------------------------------------------------------------
 
 
 print ("Uppgift 3b")
-from datetime import date, timedelta                                  # Hämta datum och delta för antal dagar
-today = date.today()
-add_days = timedelta(input("Ange antal dagar: "))
-new_date = today + add_days
-
-# Skriv ut vilket datum om 7 dagar
+from datetime import date , timedelta                                           # Hämta datum och delta för antal dagar
+add_days = int(input("Ange antal dagar: "))                                     # gör om inmatat värde till ett heltal
+new_date = today_date + timedelta(add_days)                                     # importerera framtida dagar med hjälp av timedelta)
 print("Framtida datum är: "+ str(new_date))
 
 
