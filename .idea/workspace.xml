@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4306014-d2ca-46a3-8cd5-5c9767ca3683" name="Changes" comment="">
+    <list default="true" id="d4306014-d2ca-46a3-8cd5-5c9767ca3683" name="Changes" comment="Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2 Diskutera i grupp.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 Diskutera i grupp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4 Fler övningar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/uppgift4_flera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Uppgift 1 Hello world.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/uppgift1_Hello world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,26 +42,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.3 Använda variabler och datatyper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4 Fler övningar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Diskutera i grupp.executor&quot;: &quot;Run&quot;,
-    &quot;Python._pydev_execfile.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.3 Använda variabler och datatyper.executor": "Run",
+    "Python.4 Fler övningar.executor": "Run",
+    "Python.Diskutera i grupp.executor": "Run",
+    "Python.Uppgift 1 Hello world.executor": "Run",
+    "Python._pydev_execfile.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.uppgift2_ticket.executor": "Run",
+    "Python.uppgift3_variabler_databtyper.executor": "Run",
+    "Python.uppgift4_flera.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Utbildning/PythonProject/Python01_AW/Tasks",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Utbildning\PythonProject\Python01_AW\Tasks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Utbildning\PythonProject\Python01_AW\Tasks" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="4 Fler övningar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="uppgift4_flera" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python01_AW" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,7 +89,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4 Fler övningar.py" />
+      <option name="SCRIPT_NAME" value="C:\Utbildning\PythonProject\Python01_AW\Tasks\uppgift4_flera.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.4 Fler övningar" />
+        <item itemvalue="Python.uppgift4_flera" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +127,8 @@
       <workItem from="1768319590406" duration="1287000" />
       <workItem from="1768392792887" duration="419000" />
       <workItem from="1768393271054" duration="448000" />
+      <workItem from="1768394894985" duration="2210000" />
+      <workItem from="1768643800492" duration="6554000" />
     </task>
     <task id="LOCAL-00001" summary="Firts commit">
       <option name="closed" value="true" />
@@ -201,7 +218,39 @@
       <option name="project" value="LOCAL" />
       <updated>1768319621584</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix and separate task">
+      <option name="closed" value="true" />
+      <created>1768395061753</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1768395061753</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1768644818066</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1768644818066</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1768645728332</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1768645728332</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1768646918481</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1768646918481</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,13 +276,15 @@
     <MESSAGE value="Uppgift 4" />
     <MESSAGE value="Uppgift 4 (3b)" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="fix and separate task" />
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/4 Fler övningar.py</url>
+          <url>file://$PROJECT_DIR$/Tasks/uppgift4_flera.py</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -244,7 +295,11 @@
     <SUITE FILE_PATH="coverage/Python01_AW$main.coverage" NAME="main Coverage Results" MODIFIED="1768239742025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python01_AW$Diskutera_i_grupp.coverage" NAME="Diskutera i grupp Coverage Results" MODIFIED="1768240575775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python01_AW$_pydev_execfile.coverage" NAME="_pydev_execfile Coverage Results" MODIFIED="1768244988935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/pydev/_pydev_imps" />
-    <SUITE FILE_PATH="coverage/Python01_AW$4_Fler_övningar.coverage" NAME="4 Fler övningar Coverage Results" MODIFIED="1768392920460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python01_AW$3_Använda_variabler_och_datatyper.coverage" NAME="3 Använda variabler och datatyper Coverage Results" MODIFIED="1768243711910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python01_AW$uppgift2_ticket.coverage" NAME="uppgift2_ticket Coverage Results" MODIFIED="1768645708514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tasks" />
+    <SUITE FILE_PATH="coverage/Python01_AW$uppgift4_flera.coverage" NAME="uppgift4_flera Coverage Results" MODIFIED="1768650346407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tasks" />
+    <SUITE FILE_PATH="coverage/Python01_AW$4_Fler_övningar.coverage" NAME="4 Fler övningar Coverage Results" MODIFIED="1768644695349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python01_AW$Uppgift_1_Hello_world.coverage" NAME="Uppgift 1 Hello world Coverage Results" MODIFIED="1768644775087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tasks" />
+    <SUITE FILE_PATH="coverage/Python01_AW$uppgift3_variabler_databtyper.coverage" NAME="uppgift3_variabler_databtyper Coverage Results" MODIFIED="1768646895267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tasks" />
+    <SUITE FILE_PATH="coverage/Python01_AW$3_Använda_variabler_och_datatyper.coverage" NAME="3 Använda variabler och datatyper Coverage Results" MODIFIED="1768396180526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

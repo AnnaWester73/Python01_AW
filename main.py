@@ -3,15 +3,5 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-print ("Hello world")
-
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-
-print ("hello")
-print ("anna")
+# Uppgiften är löst i en mapp som heter Tasks i projektet Python01_AW
+# I mappen finns python filer vör varje uppgift ex uppgift1_, uppgift2_ osv
