@@ -9,7 +9,7 @@ level2 = 300
 level1 = 100
 
 discount_zero = 0
-discount_30 = 50
+discount_30 = 30
 discount_10 = 10
 
 price = float(input("Välkommen, köp något dyrt: "))

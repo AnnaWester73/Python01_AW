@@ -46,18 +46,18 @@ else:
     print("Matchen blev oavgjord")
 
 print("Version 3b")
-# tips att använda abs så att man minskar kod och bara behöver en uträkning för att få målskilland
+
 
 tottenham_goals = int(input("Hur många mål gjorde Tottenham mot Liverpool: "))
 liverpool_goals = int(input("Hur många mål gjorde Liverpool mot Tottenham: "))
 
-diff_goals = abs(tottenham_goals - liverpool_goals)
+diff_goals = abs(tottenham_goals - liverpool_goals)                                 # Använt abs i uträkning så att man inte tar hänsym till negativt värde
 
-if tottenham_goals > liverpool_goals:
+if tottenham_goals > liverpool_goals:                                               # Om Tottenham vinner
     print(f"Tottenham vann med {diff_goals} mål!" )
 
 elif liverpool_goals > tottenham_goals:
-    print(f"Liverpool vann med {diff_goals} mål!")
+    print(f"Liverpool vann med {diff_goals} mål!")                                  # Om Liverpool vinner
 
 else:
-    print("Matchen blev oavgjord")
+    print("Matchen blev oavgjord")                                                  # Oavett ovan blir matchen oavgjord då man förutsätter att matchen blev lika. Tar inte hänsyn till walk over
