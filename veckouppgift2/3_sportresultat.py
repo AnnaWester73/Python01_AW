@@ -4,6 +4,8 @@ print("Version 1")
 tottenham_goals = int(input("Hur många mål gjorde Tottenham mot Liverpool: "))
 liverpool_goals = int(input("Hur många mål gjorde Liverpool mot Tottenham: "))
 
+print("Matchen är över, nu ska vi räkna ut resultatet!")
+
 if tottenham_goals > liverpool_goals:
     print("Tottenham vann!")
 
@@ -16,6 +18,8 @@ print("Version 2")
 
 tottenham_goals = int(input("Hur många mål gjorde Tottenham mot Liverpool: "))
 liverpool_goals = int(input("Hur många mål gjorde Liverpool mot Tottenham: "))
+
+print("Matchen är över, nu ska vi räkna ut resultatet!")
 
 if tottenham_goals > liverpool_goals:
     print("Tottenham vann!")
@@ -36,6 +40,8 @@ liverpool_goals = int(input("Hur många mål gjorde Liverpool mot Tottenham: "))
 diff_goals_tottenham = tottenham_goals - liverpool_goals
 diff_goals_liverpool = liverpool_goals - tottenham_goals
 
+print("Matchen är över, nu ska vi räkna ut resultatet!")
+
 if tottenham_goals > liverpool_goals:
     print(f"Tottenham vann med {diff_goals_tottenham} mål!" )
 
@@ -52,6 +58,8 @@ tottenham_goals = int(input("Hur många mål gjorde Tottenham mot Liverpool: "))
 liverpool_goals = int(input("Hur många mål gjorde Liverpool mot Tottenham: "))
 
 diff_goals = abs(tottenham_goals - liverpool_goals)                                 # Använt abs i uträkning så att man inte tar hänsym till negativt värde
+
+print("Matchen är över, nu ska vi räkna ut resultatet!")
 
 if tottenham_goals > liverpool_goals:                                               # Om Tottenham vinner
     print(f"Tottenham vann med {diff_goals} mål!" )
