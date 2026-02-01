@@ -21,7 +21,8 @@ while True:
     guess = int(input("Gissa: "))
     guess_number = guess_number + 1
 
-    # abs gör så att jag inte får minustal
+    # Räknar om skilland mellan tal och random tal
+    # och kollar talet är mindre eller lika med 5 och skilt från 5
     if abs(guess - random_number) <= 5 and guess != random_number:
         print("Nu börjar det brännas!")
 

@@ -26,7 +26,7 @@ while True:
 
         # Skriver ut alla saker som lagt till i todo_listan på nya rader
         else:
-            print("Din lista innehåller: ", todo_list)
+            print("Din lista innehåller: ")
             for ny_todo in todo_list:
                 print("+", ny_todo)
 
