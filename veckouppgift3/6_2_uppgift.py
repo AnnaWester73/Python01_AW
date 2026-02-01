@@ -28,34 +28,32 @@ while True:
         # Skriver ut alla saker som lagt till i todo_listan på nya rader
         else:
             print("Din lista innehåller: ")
-            for ny_todo in todo_list:
-                print("+", ny_todo)
+            for task in todo_list:
+                print("+", task)
 
     elif val == "2":
-        ny_todo = input("Skriv en ny sak du måste komma ihåg att göra: ")
-        todo_list.append(ny_todo)
-        print("Ok, lade till", ny_todo)
+        task = input("Skriv en ny sak du måste komma ihåg att göra: ")
+        todo_list.append(task)
+        print("Ok, lade till", task)
 
     elif val == "3":
         if not todo_list:
             print("Listan är tom. Finns inget att markera som klart!")
         else:
             print("Skriv in vad du är klar med: ")
-            # Enumerate går igenom allt som finns i listan och ger index och värde
-            # Ger varje sak ett nummer som startar på 1
-            # seqno ger ett löpnummer på allt som är i listan
-            for seqno, ny_todo in enumerate(todo_list, start=1):
-                print(seqno, ".", ny_todo)
+            # Enumerate går igenom allt som finns i listan och ger nummer och värde
+            # index är nummer som skrivs ut till task.(uppgiften)
+            for index, task in enumerate(todo_list):
+                print(index, ".", task)
 
-            nr = int(input("Ange numret: "))
-            if 1 <= nr <= len(todo_list):
-                klar_sak = todo_list.pop(nr - 1)
-                print("Tog nu bort:", klar_sak, "i listan!")
+            selected_number = int(input("Ange numret: "))
+            if 1 <= selected_number <= len(todo_list):
+
+                # pop tar bort sak ur listan istället för remove med hjälp av värde
+                completed_task = todo_list.pop(selected_number)
+                print("Tog nu bort:", completed_task, "i listan!")
             else:
                 print("Ogiltigt val, försök igen.")
-
-
-
 
     elif val == "4":
         print("Programmet avslutas.")
