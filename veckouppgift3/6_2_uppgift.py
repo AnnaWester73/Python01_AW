@@ -43,7 +43,7 @@ while True:
             print("Skriv in vad du är klar med: ")
             # Enumerate går igenom allt som finns i listan och ger index och värde
             # Ger varje sak ett nummer som startar på 1
-            # i ger ett löpnummer på allt som är i listan
+            # seqno ger ett löpnummer på allt som är i listan
             for seqno, ny_todo in enumerate(todo_list, start=1):
                 print(seqno, ".", ny_todo)
 
