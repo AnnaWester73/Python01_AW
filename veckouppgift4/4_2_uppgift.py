@@ -11,16 +11,34 @@ from itertools import product
 
 card_values = list(range(2, 15))
 category = ["Spader", "Hjärter", "Ruter", "Klöver"]
-card_quantity = 1
+card_quantity = 5
 
-#Skapar en funktion för alla kort i en kortlek
-def deck_of_cards (category, card_values, card_quantity):
+# Skapar en funktion som bygger en kortlek och drar slumpmässiga kort
+# Skickar först in värde och sedan färgerna (category)
+def deck_of_cards (card_values, category, card_quantity):
 
-    # Skapar upp alla varianter av de två listorna
-    # Väljer ett kort random från listan
+    # Skapar alla möjliga kombinationer av valör och färg
+    # Varje spelkort representeras som en tuple: (valör, färg)
+    # Drar slumpmässigt card_quantity kort från kortleken
     new_list = list(product(card_values, category))
     card = random.sample(new_list, card_quantity)
 
     return card
 
-print("Du fick kort: ",deck_of_cards(card_values, category,card_quantity))
+card = deck_of_cards(card_values, category, card_quantity)
+print("Du fick kort: ",card)
+
+# Tar ut vilka två värden jag fått på mina kort.
+# Kort 1,Första elementet i listan och första elementet i tuplen,
+# ger första kortets värde
+# Kort 2, Andra elementet i listan och första elementet i tuplen,
+# ger andra kortets värde
+# Jämför sedan värden om det är lika eller olika
+
+card_value_1 = card [0][0]
+card_value_2 = card [1][0]
+
+if card_value_1 == card_value_2:
+    print("Korten är av samma valör: " , card_value_1)
+else:
+    print("Korten är av olika valör: " , card_value_1,"", card_value_2)

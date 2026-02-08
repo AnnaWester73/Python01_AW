@@ -17,13 +17,13 @@ import turtle
 
 lines = 4
 t = turtle.Turtle()
-t.speed(6)
+t.speed(1)
 
 def rectangle ():
 
     for line in range(lines):
         t.forward(100)
-        t.left(90)
+        t.right(90)
 
 rectangle ()
 

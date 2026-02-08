@@ -13,6 +13,11 @@ qty = 3
 t = turtle.Turtle()
 t.speed(1)
 
+# Flyttar position innan jag börjar rita
+t.penup()
+t.goto(-200,200)
+t.pendown()
+
 def rectangle():
     for line in range(lines):
         t.forward(100)
@@ -32,11 +37,8 @@ def draw_many ():
         rectangle()
         move_next()
 
-t.penup()
-t.goto(-200,200)
-t.pendown()
-
 draw_many()
 
 # Har kvar fönstret som ritas ut
+# t.mainloop()
 turtle.done()
