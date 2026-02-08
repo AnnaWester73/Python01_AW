@@ -29,7 +29,31 @@ def deck_of_cards (card_values, colour, card_quantity):
     # Varje spelkort representeras som en tuple: (valör, färg)
     # Drar slumpmässigt card_quantity kort från kortleken
     new_list = list(product(card_values, colour))
-    card = random.sample(new_list, card_quantity)
+#    card = random.sample(new_list, card_quantity)
+
+    #Testhänder - -------------------------------
+    #Royal
+    #flush
+    card = [( 13,'Ruter'), (10, 'Ruter'), (12, 'Ruter' ), (11, 'Ruter'), (14,'Ruter')]
+    #Straight
+    #flush
+    #card = [('Spader', 7), ('Spader', 5), ('Spader', 4), ('Spader', 8), ('Spader', 6)]
+    #Four of a kind
+    #card = [('Ruter', 11), ('Hjärter', 11), ('Spader', 11), ('Spader', 5), ('Klöver', 11)]
+    # Full house
+    #card = [('Ruter', 11), ('Hjärter', 3), ('Spader', 3), ('Spader', 11), ('Klöver', 3)]
+    #Flush
+    #card = [('Klöver', 11), ('Klöver', 3), ('Klöver', 8), ('Klöver', 9), ('Klöver', 5)]
+    #Straight
+    #card = [('Ruter', 7), ('Hjärter', 6), ('Spader', 3), ('Spader', 5), ('Klöver', 4)]
+    #Three of a kind
+    # cards = [('Ruter', 11), ('Hjärter', 3), ('Spader', 3), ('Spader', 5), ('Klöver', 3)]
+    # Two pair
+    # card = [('Ruter', 11), ('Hjärter', 3), ('Spader', 3), ('Spader', 11), ('Klöver', 14)]
+    # One pair
+    # card = [('Ruter', 11), ('Hjärter', 3), ('Spader', 3), ('Spader', 8), ('Klöver', 14)]
+    #  ----------------------------------------------------------------
+
 
     return card
 
@@ -153,6 +177,7 @@ one_pair (card)
 
 def poker_hand(card):
 
+# Kommer aldrig ske då jag isåfall behöver lägga till flera kort tex ändrar antal till 6st så ska inte vara med.
     if femtal (card) == True:
         print("Du har femtal")
 
