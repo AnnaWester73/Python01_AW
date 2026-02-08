@@ -12,8 +12,8 @@ QTY = 5
 
 def draw_hand():
     deck = deck_of_cards()   # Anropar funktion skapar kortleken
- #   hand = random.sample(deck, QTY)
-    hand = [('Ruter', 11), ('Hjärter', 3), ('Spader', 3), ('Spader', 8), ('Klöver', 14)]
+    hand = random.sample(deck, QTY)
+   # hand = [('Ruter', 11), ('Hjärter', 11), ('Spader', 11), ('Spader', 5), ('Klöver', 11)]
     return hand
 
 # hand = draw_hand()
