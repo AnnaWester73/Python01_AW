@@ -4,7 +4,7 @@
 # Finns samma vokal flera gånger
 # Finns det tecken som inte är bokstäver
 
-from veckouppgift5.count_vowels_3a import count_vowels
+from veckouppgift5.count_vowels_red_3a import count_vowels
 
 def test_count_all_vowels():
     assert count_vowels("aeiouyåäö") == 9
