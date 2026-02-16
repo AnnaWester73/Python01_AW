@@ -1,12 +1,5 @@
 from veckouppgift5.count_words_2_2 import count_words
 
-#Normal användning
-#Mellanslagshantering
-#Specialtecken
-#Siffror
-#Kantfall
-#Robusthet mot oregelbunden spacing
-
 # AK1 – Normala meningar
 def test_normal_count_words ():
     assert count_words("Godmorgon OS") == 2
