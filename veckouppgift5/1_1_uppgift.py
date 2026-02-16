@@ -65,6 +65,7 @@ print(w == 32 or w == 64 or w == 128)
 
 print("Uppgift 1g")
 # Påstående if x < 5: … elif x < 10: … elif x < 15: … else för att kontrollera villkor mellan olika intervaller
+# Har fyra ekvivalensklasser
 
 x = 10
 if x < 5:
