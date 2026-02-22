@@ -2,7 +2,7 @@
 # Tanken är att du ska kunna kombinera den med kvadratfunktionen,
 # för att rita flera kvadrater. Exempel:
 
-import turtle
+import turtle2
 
 # Variabler för hur många linger för att skapa en kvadrat,
 # hur pennan ska flyttas och hur många kvadrater som ska skrivas ut

@@ -13,7 +13,7 @@
 # 9 – mycket snabb
 # 10 – snabbast
 
-import turtle
+import turtle2
 
 lines = 4
 t = turtle.Turtle()

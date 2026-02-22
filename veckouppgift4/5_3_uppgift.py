@@ -1,7 +1,7 @@
 # Bygg om koden så att den ingår i en funktion,
 # som ritar en komplett cirkel. Använd parametrar i stället för värdena 7, 40 och 30.
 
-import turtle
+import turtle2
 
 t = turtle.Turtle()
 t.speed(1)

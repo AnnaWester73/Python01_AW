@@ -1,7 +1,7 @@
 #Uppgift 4 version 4
 # Skriv funktioner som ritar de enskilda bokstäverna i ordet "PYTHON" med turtle-modulen.
 # Kombinera dem och försök få bokstäverna att ritas med samma storlek, på en rak linje.
-
+#
 import turtle as t
 
 # Skapar en turtle och hastighet
